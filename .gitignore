@@ -72,3 +72,6 @@ log/
 
 
 .cache/
+
+# Ignore data
+data/title.basics.tsv
