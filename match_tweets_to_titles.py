@@ -80,6 +80,8 @@ def main():
                 closest_dist = dist
                 closest_dist_word = dist_word
                 closest = movie_title
+
+        # at most 3 words difference and diff must be less than # of words in the tweet
         if closest_dist_word <= 3 and closest_dist_word < len(tweet_clean_text.split(' ')):
             print(tweet_clean_text, '\t', closest, '\t', closest_dist)
     end = time.time()
