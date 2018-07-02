@@ -107,16 +107,22 @@ def make_mt_data(bigrams=False):
 	source_valid.close()
 	target_valid.close()
 
-def make_mt_test():
+def make_mt_test(bigrams=False):
 	titles = json.load(codecs.open("imdb_titles.json", "r", encoding="utf-8"))
 	mt_test = codecs.open("data/mt/test.txt", "w", encoding="utf-8")
 	for title in titles:
-		mt_test.write(clean_text(title) + "\n")
+		t = clean_text(title)
+		if bigrams:
+			b1, b2 = __make_bigram_lists(t, t)
+			for bigram in b1:
+				mt_test.write(" ".join(bigram) + "\n")
+		else:
+			mt_test.write(t + "\n")
 	mt_test.close()
 
 
 #print __make_bigram_lists("taxi driver and me", "hijaabi driver and sheik and great")
 #get_rating_ids()
 #get_titles()
-make_mt_data(True)
-#make_mt_test()
+#make_mt_data(True)
+make_mt_test(True)
