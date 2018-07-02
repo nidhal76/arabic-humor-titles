@@ -20,7 +20,7 @@ def extract_arabic_words(oed_path="/Users/mikahama/neologismi/oed"):
 					lang_lists = etymon["etymon_language"]
 					for lang_list in lang_lists:
 						if "Arabic" in lang_list:
-							result[lemma] = item["sense_ids"]
+							result[lemma] = item["parts_of_speech"]
 							break
 	json.dump(result, codecs.open("arabic_words_list.json", "w", encoding="utf-8"), indent=4)
 

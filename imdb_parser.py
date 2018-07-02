@@ -1,6 +1,9 @@
 #encoding: utf-8
 import json, codecs
 import random
+from match_tweets_to_titles import clean_text
+from alphabet_detector import AlphabetDetector
+
 
 def get_rating_ids(file_path="/Users/mikahama/Downloads/title.ratings.csv", min_votes=100000):
 	ids = {}
@@ -29,6 +32,7 @@ def get_titles(file_path="/Users/mikahama/Downloads/title.basics.tsv"):
 	json.dump(titles, codecs.open("imdb_titles.json", "w", encoding="utf-8"), indent=4)
 
 def make_mt_data():
+	ad = AlphabetDetector()
 	source = codecs.open("data/mt/source.txt", "w", encoding="utf-8")
 	target = codecs.open("data/mt/target.txt", "w", encoding="utf-8")
 	source_valid = codecs.open("data/mt/source_valid.txt", "w", encoding="utf-8")
@@ -42,10 +46,13 @@ def make_mt_data():
 		humorous = data["matched_title"]
 		if orig == humorous:
 			continue
+		if "ARABIC" in ad.detect_alphabet(orig):
+			#skip the ones with arabic characters
+			continue
 		i += 1
 		source.write(humorous + "\n")
 		target.write(orig + "\n")
-		if i % 10 == 0:
+		if i % 5 == 0:
 			source_valid.write(humorous + "\n")
 			target_valid.write(orig + "\n")
 	source.close()
@@ -53,9 +60,16 @@ def make_mt_data():
 	source_valid.close()
 	target_valid.close()
 
+def make_mt_test():
+	titles = json.load(codecs.open("imdb_titles.json", "r", encoding="utf-8"))
+	mt_test = codecs.open("data/mt/test.txt", "w", encoding="utf-8")
+	for title in titles:
+		mt_test.write(clean_text(title) + "\n")
+	mt_test.close()
 
 
 
 #get_rating_ids()
 #get_titles()
 make_mt_data()
+#make_mt_test()
