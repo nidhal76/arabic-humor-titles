@@ -75,3 +75,5 @@ log/
 
 # Ignore data
 data/title.basics.tsv
+models/
+local/
