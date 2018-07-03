@@ -75,3 +75,4 @@ log/
 
 # Ignore data
 data/title.basics.tsv
+data/arabic_wikipedia

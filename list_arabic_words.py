@@ -2,6 +2,8 @@
 import codecs, json, os, fnmatch, glob
 import xml.etree.cElementTree as ET
 import urllib2, urllib
+import justext, nltk
+from match_tweets_to_titles import clean_text
 
 def find_files(directory, pattern):
     for root, dirs, files in os.walk(directory):
@@ -72,9 +74,51 @@ def list_wiki_urls():
 		print url
 		i = text.find("<Url")
 
+def __get_keywords(file, bnc_frequencies, keyword_dict={}):
+	f = codecs.open(file, "r", encoding="utf-8").read()
+	paragraphs = justext.justext(f, justext.get_stoplist("English"))
+	freqs = {}
+	text_freqs = {}
+	for paragraph in paragraphs:
+		if not paragraph.is_boilerplate:
+			tokens = nltk.word_tokenize(clean_text(paragraph.text))
+			for token in tokens:
+				if token not in text_freqs:
+					text_freqs[token] = 0
+				if token in freqs:
+					text_freqs[token] += 1
+					continue
+				elif token in bnc_frequencies:
+					freqs[token] = bnc_frequencies[token]
+					text_freqs[token] += 1
+				else:
+					freqs[token] = 0
+					text_freqs[token] += 1
+	for f_key, f_value in text_freqs.iteritems():
+		if f_value < 2:
+			del freqs[f_key]
+	x = len(freqs.keys())/10
+	for i in range(x):
+		min_word = min(freqs, key=freqs.get)
+		if min_word not in keyword_dict:
+			keyword_dict[min_word] = 0
+		keyword_dict[min_word] += text_freqs[min_word]
+		del freqs[min_word]
 
+
+def get_extended_arabic_words():
+	bnc = json.load(codecs.open("data/bnc_frequencies.json", "r", encoding="utf-8"))
+	files = glob.glob("data/arabic_wikipedia/*")
+	keyword_dict = {}
+	for file in files:
+		__get_keywords(file, bnc,keyword_dict)
+	json.dump(keyword_dict, codecs.open("data/more_arabic.json", "w", encoding="utf-8"), indent=4)
+
+get_extended_arabic_words()
 #extract_arabic_words()
 #bnc_frequencies()
 #find_wikipedia_pages()
-list_wiki_urls()
+#list_wiki_urls()
+
+
 
