@@ -8,8 +8,8 @@ nlp = spacy.load('en')
 
 def main():
     # load data
-    movies = read_json('./imdb_titles.json')
-    arabic_words = read_json('./arabic_words_list.json')
+    movies = read_json('./data/imdb_titles.json')
+    arabic_words = read_json('./data/arabic_words_list.json')
 
     movie_titles = list(movies.keys())
     ar_words = list(arabic_words.keys())

@@ -8,7 +8,7 @@ nlp = spacy.load('en')
 
 def main():
     stats = defaultdict(lambda: defaultdict(int))
-    titles = read_json('./mapped_titles.json')
+    titles = read_json('./data/mapped_titles.json')
     for tweet_id, data in titles.items():
         original_title = data['matched_title']
         tweet = data['tweet_clean']

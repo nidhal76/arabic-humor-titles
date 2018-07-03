@@ -46,7 +46,7 @@ def main():
     start = time.time()
     tweets = list(get_tweets())  # get tweets
 
-    movies = json.load(codecs.open('./imdb_titles.json', 'r', encoding='utf-8'))  # get movie titles
+    movies = json.load(codecs.open('./data/imdb_titles.json', 'r', encoding='utf-8'))  # get movie titles
     movie_titles = list(movies.keys())
 
     # comment out to use entire IMDB
@@ -109,7 +109,7 @@ def main():
 
     end = time.time()
 
-    json.dump(result, codecs.open("./mapped_titles.json", "w", encoding="utf-8"), indent=4)
+    json.dump(result, codecs.open("./data/mapped_titles.json", "w", encoding="utf-8"), indent=4)
 
     print(end - start)
     # find closest title to tweet
