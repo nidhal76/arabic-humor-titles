@@ -1,3 +1,4 @@
 editdistance==0.4
 alphabet-detector
 nltk
+py-espeak-ng
