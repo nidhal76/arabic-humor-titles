@@ -80,7 +80,7 @@ def assonance(ind):
     Returns:
     '''
 
-    ARPABET_VOWELS = [u"ɑ", u"aɪ", u"aʊ", u"eɪ", u"i", u"oʊ", u"u", u"æ", u"ɔɪ", u"ɔ",u"ə", u"ɚ", u"ɛ", u"ɝ", u"ɨ", u"ɪ", u"ʉ", u"ʊ", u"ʌ"]
+    ARPABET_VOWELS = [u"ɑ", u"a", u"aɪ", u"aʊ", u"eɪ", u"i", u"o" u"oʊ", u"u", u"æ", u"ɔɪ", u"ɔ",u"ə", u"ɚ", u"ɛ", u"ɝ", u"ɨ", u"ɪ", u"ʉ", u"ʊ", u"ʌ"]
 
     _phones = phones(ind)
     _phones = list(map(lambda p: tuple([
@@ -106,7 +106,7 @@ def consonance(ind):
     Returns:
     '''
 
-    ARPABET_VOWELS = [u"ɑ", u"aɪ", u"aʊ", u"eɪ", u"i", u"oʊ", u"u", u"æ", u"ɔɪ", u"ɔ",u"ə", u"ɚ", u"ɛ", u"ɝ", u"ɨ", u"ɪ", u"ʉ", u"ʊ", u"ʌ"]
+    ARPABET_VOWELS = [u"ɑ", u"a", u"aɪ", u"aʊ", u"eɪ", u"i", u"o" u"oʊ", u"u", u"æ", u"ɔɪ", u"ɔ",u"ə", u"ɚ", u"ɛ", u"ɝ", u"ɨ", u"ɪ", u"ʉ", u"ʊ", u"ʌ"]
 
     _phones = phones(ind)
     counts = defaultdict(int)
