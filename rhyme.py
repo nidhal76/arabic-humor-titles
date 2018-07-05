@@ -80,11 +80,7 @@ def assonance(ind):
     Returns:
     '''
 
-    ARPABET_VOWELS = [  # https://en.wikipedia.org/wiki/Arpabet
-        'AO', 'AA', 'IY', 'UW', 'EH', 'IH', 'UH', 'AH', 'AX', 'AE',
-        'EY', 'AY', 'OW', 'AW', 'OY', 'ER', 'AXR', 'EH R', 'UH R', 'AO R', 'AA R',
-        'IH R', 'IY R', 'AW R'
-    ]
+    ARPABET_VOWELS = [u"ɑ", u"aɪ", u"aʊ", u"eɪ", u"i", u"oʊ", u"u", u"æ", u"ɔɪ", u"ɔ",u"ə", u"ɚ", u"ɛ", u"ɝ", u"ɨ", u"ɪ", u"ʉ", u"ʊ", u"ʌ"]
 
     _phones = phones(ind)
     _phones = list(map(lambda p: tuple([
@@ -100,6 +96,9 @@ def assonance(ind):
     counts = list(filter(lambda d: d[1] >= 3, counts.items()))
     return counts
 
+def espeak_ipa(word):
+    ipa = esng.g2p(word, ipa=2).replace(u"ˈ", "").replace(u"ː", "")
+    return [" ".join(ipa)]
 
 def consonance(ind):
     '''
@@ -107,11 +106,7 @@ def consonance(ind):
     Returns:
     '''
 
-    ARPABET_VOWELS = [  # https://en.wikipedia.org/wiki/Arpabet
-        'AO', 'AA', 'IY', 'UW', 'EH', 'IH', 'UH', 'AH', 'AX', 'AE',
-        'EY', 'AY', 'OW', 'AW', 'OY', 'ER', 'AXR', 'EH R', 'UH R', 'AO R', 'AA R',
-        'IH R', 'IY R', 'AW R'
-    ]
+    ARPABET_VOWELS = [u"ɑ", u"aɪ", u"aʊ", u"eɪ", u"i", u"oʊ", u"u", u"æ", u"ɔɪ", u"ɔ",u"ə", u"ɚ", u"ɛ", u"ɝ", u"ɨ", u"ɪ", u"ʉ", u"ʊ", u"ʌ"]
 
     _phones = phones(ind)
     counts = defaultdict(int)
@@ -123,11 +118,12 @@ def consonance(ind):
     return counts
 
 
-import pronouncing
+#import pronouncing
 import re
 from nltk.corpus import stopwords
 import operator
 from functools import reduce
+from collections import defaultdict
 
 # stop words
 stopwords = set(stopwords.words('english'))
@@ -149,11 +145,11 @@ def phones(ind, stress=False):
     Returns: a dictionary mapping words in the slogan into their phones {word :  phones, ... }
     '''
     ind = ind_without_stop(ind)
-    phones = list(map(lambda w: tuple([w, pronouncing.phones_for_word(w)]), ind))
+    phones = list(map(lambda w: tuple([w, espeak_ipa(w)]), ind))
     phones = list(filter(lambda p: p[1], phones))
     phones = list(map(lambda p: tuple([p[0], p[1][0]]), phones))
     if not stress:
-        phones = list(map(lambda p: tuple([p[0], str(filter(lambda _p: not _p.isdigit(), p[1]))]), phones))
+        phones = list(map(lambda p: tuple([p[0], unicode(filter(lambda _p: not _p.isdigit(), p[1]))]), phones))
     phones = list(map(lambda p: tuple([p[0], p[1].split()]), phones))
     return dict(phones)
 
@@ -173,3 +169,5 @@ def consonance_fn(ind):
     except:
         return 0.0
 # print rhyme("No go hoe")
+
+

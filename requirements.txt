@@ -10,8 +10,6 @@ cytoolz==0.8.2
 dill==0.2.8.2
 docutils==0.14
 editdistance==0.4
-alphabet-detector
-nltk
 py-espeak-ng
 en-core-web-sm==2.0.0
 gensim==3.4.0
