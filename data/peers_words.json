@@ -1,0 +1,3196 @@
+{
+    "nights": [
+        "NNS"
+    ],
+    "tired": [
+        "JJ"
+    ],
+    "sa7ib": [
+        "NN"
+    ],
+    "jalala": [
+        "NN"
+    ],
+    "kingfather": [
+        "NN"
+    ],
+    "dua": [
+        "NN"
+    ],
+    "ritz": [
+        "JJ",
+        "NN"
+    ],
+    "carlton": [
+        "NN"
+    ],
+    "astaghfirullah": [
+        "NN"
+    ],
+    "allah": [
+        "JJ",
+        "NN"
+    ],
+    "fucker": [
+        "NN"
+    ],
+    "riyals": [
+        "NNS"
+    ],
+    "crazy": [
+        "JJ"
+    ],
+    "saudis": [
+        "NNS"
+    ],
+    "riyadh": [
+        "JJ",
+        "NN"
+    ],
+    "jahannam": [
+        "NN"
+    ],
+    "ankle": [
+        "NN"
+    ],
+    "open": [
+        "JJ"
+    ],
+    "kabsa": [
+        "NN"
+    ],
+    "wahhabiyyah": [
+        "NNS"
+    ],
+    "bans": [
+        "NNS"
+    ],
+    "maghrib": [
+        "NN"
+    ],
+    "sheikhs": [
+        "NNS"
+    ],
+    "imam": [
+        "NN"
+    ],
+    "hijabis": [
+        "NN"
+    ],
+    "niqabi": [
+        "JJ",
+        "NN"
+    ],
+    "thawab": [
+        "NN"
+    ],
+    "pain": [
+        "NN"
+    ],
+    "school": [
+        "NN"
+    ],
+    "jihad": [
+        "NN"
+    ],
+    "high": [
+        "JJ"
+    ],
+    "tajweed": [
+        "NN"
+    ],
+    "kuftamaker": [
+        "NN"
+    ],
+    "arabia": [
+        "NNS",
+        "NN"
+    ],
+    "stone": [
+        "NN"
+    ],
+    "beheading": [
+        "NN"
+    ],
+    "saudi": [
+        "JJ",
+        "NN"
+    ],
+    "alsaleh": [
+        "NN"
+    ],
+    "alsalaf": [
+        "NNS"
+    ],
+    "sharifeen": [
+        "NN"
+    ],
+    "harmain": [
+        "NN"
+    ],
+    "inbetween": [
+        "NN"
+    ],
+    "shaitan": [
+        "JJ"
+    ],
+    "kafil": [
+        "NN"
+    ],
+    "holy": [
+        "JJ"
+    ],
+    "wives": [
+        "NNS"
+    ],
+    "camel": [
+        "NN"
+    ],
+    "haram": [
+        "NN"
+    ],
+    "king": [
+        "NN"
+    ],
+    "hashtag": [
+        "NN"
+    ],
+    "mullah": [
+        "NN"
+    ],
+    "saudians": [
+        "NNS"
+    ],
+    "girl": [
+        "NN"
+    ],
+    "salman": [
+        "NN"
+    ],
+    "salat": [
+        "JJ"
+    ],
+    "mujahidduns": [
+        "NNS"
+    ],
+    "middleast": [
+        "NN"
+    ],
+    "avengers": [
+        "NNS"
+    ],
+    "undisputed": [
+        "JJ"
+    ],
+    "sheikh": [
+        "NN"
+    ],
+    "dairy": [
+        "NN"
+    ],
+    "kid": [
+        "NN"
+    ],
+    "muslim": [
+        "JJ"
+    ],
+    "arabs": [
+        "NNS"
+    ],
+    "shaitans": [
+        "NNS"
+    ],
+    "faces": [
+        "NNS"
+    ],
+    "moharram": [
+        "NN"
+    ],
+    "salafi": [
+        "NN"
+    ],
+    "shoes": [
+        "NNS"
+    ],
+    "man": [
+        "NN"
+    ],
+    "yemen": [
+        "NNS",
+        "NN"
+    ],
+    "red": [
+        "JJ"
+    ],
+    "iblis": [
+        "NN"
+    ],
+    "last": [
+        "JJ"
+    ],
+    "hijrath": [
+        "NN"
+    ],
+    "summer": [
+        "NN"
+    ],
+    "jaddeh": [
+        "NN"
+    ],
+    "hot": [
+        "JJ"
+    ],
+    "future": [
+        "JJ"
+    ],
+    "hadj": [
+        "JJ",
+        "NN"
+    ],
+    "fill": [
+        "NN"
+    ],
+    "al": [
+        "NNP"
+    ],
+    "ashab": [
+        "NN"
+    ],
+    "ibadi": [
+        "NN"
+    ],
+    "shia": [
+        "NNS",
+        "NN"
+    ],
+    "sunni": [
+        "JJ",
+        "NN"
+    ],
+    "jihads": [
+        "NNS"
+    ],
+    "abdullah": [
+        "NN"
+    ],
+    "snowhard": [
+        "NN"
+    ],
+    "saudiman": [
+        "JJ",
+        "NN"
+    ],
+    "mbs": [
+        "NNS",
+        "NN"
+    ],
+    "abayas": [
+        "NNS",
+        "NN"
+    ],
+    "jinn": [
+        "NNS",
+        "NN"
+    ],
+    "funniest": [
+        "NN"
+    ],
+    "niqab": [
+        "NN"
+    ],
+    "hell": [
+        "NN"
+    ],
+    "gulfather": [
+        "NN"
+    ],
+    "camels": [
+        "NNS"
+    ],
+    "desert": [
+        "NN"
+    ],
+    "scavengers": [
+        "NNS"
+    ],
+    "exit": [
+        "NN"
+    ],
+    "hejaz": [
+        "NNP",
+        "NN"
+    ],
+    "empire": [
+        "NN"
+    ],
+    "horny": [
+        "NN"
+    ],
+    "laugh": [
+        "NN"
+    ],
+    "rules": [
+        "NNS"
+    ],
+    "engagement": [
+        "NN"
+    ],
+    "little": [
+        "JJ"
+    ],
+    "prairie": [
+        "NN"
+    ],
+    "khaima": [
+        "NNS"
+    ],
+    "pray": [
+        "NN"
+    ],
+    "nikkahs": [
+        "NNS"
+    ],
+    "janazah": [
+        "JJ"
+    ],
+    "jeddah": [
+        "NNS"
+    ],
+    "tryin": [
+        "NN"
+    ],
+    "kafel": [
+        "NN"
+    ],
+    "arabian": [
+        "JJ",
+        "NN"
+    ],
+    "bin": [
+        "NN"
+    ],
+    "muhammad": [
+        "NN"
+    ],
+    "sultan": [
+        "NN"
+    ],
+    "pipelines": [
+        "NNS"
+    ],
+    "shot": [
+        "NN"
+    ],
+    "lawless": [
+        "JJ"
+    ],
+    "ramadan": [
+        "JJ"
+    ],
+    "political": [
+        "JJ"
+    ],
+    "prisoner": [
+        "NN"
+    ],
+    "iman": [
+        "NN"
+    ],
+    "abaya": [
+        "NN"
+    ],
+    "mom": [
+        "NN"
+    ],
+    "khalil": [
+        "NN"
+    ],
+    "abbdel": [
+        "NN"
+    ],
+    "ilah": [
+        "NN"
+    ],
+    "illa": [
+        "NN"
+    ],
+    "love": [
+        "NN"
+    ],
+    "nazar": [
+        "NN"
+    ],
+    "\u0642\u062f\u0648\u0639": [
+        "NN"
+    ],
+    "gudooa": [
+        "NN"
+    ],
+    "besht": [
+        "NN"
+    ],
+    "inshallahpossible": [
+        "JJ"
+    ],
+    "dishdaashah": [
+        "NN"
+    ],
+    "tehran": [
+        "NN"
+    ],
+    "princes": [
+        "NNS"
+    ],
+    "date": [
+        "NN"
+    ],
+    "palm": [
+        "NN"
+    ],
+    "\u06af\u0686\u067e\u0698": [
+        "NN"
+    ],
+    "socks": [
+        "NNS"
+    ],
+    "halqe": [
+        "NN"
+    ],
+    "emam": [
+        "NN"
+    ],
+    "month": [
+        "NN"
+    ],
+    "golden": [
+        "JJ"
+    ],
+    "jidda": [
+        "NN"
+    ],
+    "maid": [
+        "JJ",
+        "NN"
+    ],
+    "shaytan": [
+        "JJ",
+        "NN"
+    ],
+    "prisoners": [
+        "NNS"
+    ],
+    "quran": [
+        "NN"
+    ],
+    "islam": [
+        "NNS",
+        "NN"
+    ],
+    "kill": [
+        "NN"
+    ],
+    "riazstreet": [
+        "NN"
+    ],
+    "bomb": [
+        "NN"
+    ],
+    "bomber": [
+        "NN"
+    ],
+    "khelafah": [
+        "NN"
+    ],
+    "country": [
+        "NN"
+    ],
+    "home": [
+        "NN"
+    ],
+    "shaikh": [
+        "NN"
+    ],
+    "swords": [
+        "NNS"
+    ],
+    "birth": [
+        "NN"
+    ],
+    "nation": [
+        "NN"
+    ],
+    "saudian": [
+        "JJ"
+    ],
+    "mecca": [
+        "NN"
+    ],
+    "women": [
+        "NNS"
+    ],
+    "mothers": [
+        "NNS"
+    ],
+    "\u062e\u0646\u062f\u0642": [
+        "NN"
+    ],
+    "\u0627\u0644\u0645\u0643\u064a": [
+        "NN"
+    ],
+    "masjid": [
+        "JJ",
+        "NN"
+    ],
+    "infidel": [
+        "NN"
+    ],
+    "white": [
+        "JJ"
+    ],
+    "akhs": [
+        "NNS"
+    ],
+    "pages": [
+        "NNS"
+    ],
+    "jahanam": [
+        "NN"
+    ],
+    "drive": [
+        "NN"
+    ],
+    "terrors": [
+        "NNS"
+    ],
+    "savab": [
+        "NN"
+    ],
+    "carpet": [
+        "NN"
+    ],
+    "persian": [
+        "JJ"
+    ],
+    "saudireform": [
+        "NN"
+    ],
+    "terrorist": [
+        "NN"
+    ],
+    "spotless": [
+        "NN"
+    ],
+    "mulla": [
+        "NN"
+    ],
+    "good": [
+        "JJ"
+    ],
+    "abdolah": [
+        "NN"
+    ],
+    "insider": [
+        "NN"
+    ],
+    "khalifas": [
+        "NN"
+    ],
+    "nabi": [
+        "NN"
+    ],
+    "amameh": [
+        "NN"
+    ],
+    "bulb": [
+        "NN"
+    ],
+    "mee": [
+        "NN"
+    ],
+    "estraha": [
+        "NN"
+    ],
+    "burqa": [
+        "NN"
+    ],
+    "bilal": [
+        "NN"
+    ],
+    "mudeers": [
+        "NNS"
+    ],
+    "zamzam": [
+        "NN"
+    ],
+    "khabsa": [
+        "NN"
+    ],
+    "shiekhs": [
+        "NNS"
+    ],
+    "hijaabi": [
+        "NN"
+    ],
+    "jinns": [
+        "NNS"
+    ],
+    "hallal": [
+        "NN"
+    ],
+    "titanic": [
+        "JJ",
+        "NN"
+    ],
+    "father": [
+        "NN"
+    ],
+    "gat": [
+        "NN"
+    ],
+    "vision": [
+        "NN"
+    ],
+    "khurais": [
+        "NNS"
+    ],
+    "abbas": [
+        "NNS"
+    ],
+    "bandar": [
+        "NN"
+    ],
+    "t3os": [
+        "NNP"
+    ],
+    "thobes": [
+        "NNS"
+    ],
+    "habibi": [
+        "NN"
+    ],
+    "mutawwa": [
+        "NN"
+    ],
+    "sandstorm": [
+        "NN"
+    ],
+    "honour": [
+        "NN"
+    ],
+    "sala": [
+        "NN"
+    ],
+    "samri": [
+        "NN"
+    ],
+    "bombing": [
+        "NN"
+    ],
+    "faisal": [
+        "NN"
+    ],
+    "walid": [
+        "JJ"
+    ],
+    "privet": [
+        "NN"
+    ],
+    "baligh": [
+        "NN"
+    ],
+    "mullahs": [
+        "NNS"
+    ],
+    "istighfar": [
+        "JJ"
+    ],
+    "godfearer": [
+        "NN"
+    ],
+    "sehri": [
+        "NN"
+    ],
+    "hilarious": [
+        "JJ"
+    ],
+    "warees": [
+        "NNS"
+    ],
+    "piety": [
+        "NN"
+    ],
+    "day": [
+        "NN"
+    ],
+    "standing": [
+        "NN"
+    ],
+    "erotic": [
+        "JJ"
+    ],
+    "naif": [
+        "NN"
+    ],
+    "round": [
+        "NN"
+    ],
+    "final": [
+        "JJ"
+    ],
+    "mshary": [
+        "NN"
+    ],
+    "abdulla": [
+        "NN"
+    ],
+    "wudu": [
+        "JJ",
+        "NN"
+    ],
+    "mall": [
+        "NN"
+    ],
+    "bearded": [
+        "JJ"
+    ],
+    "lightning": [
+        "NN"
+    ],
+    "mandy": [
+        "NN"
+    ],
+    "jawazat": [
+        "NN"
+    ],
+    "monster": [
+        "NN"
+    ],
+    "mazoon": [
+        "NN"
+    ],
+    "thoab": [
+        "NN"
+    ],
+    "rigs": [
+        "NNS"
+    ],
+    "law": [
+        "NN"
+    ],
+    "habill": [
+        "NN"
+    ],
+    "saheeh": [
+        "NN"
+    ],
+    "khariji": [
+        "NN"
+    ],
+    "12years": [
+        "NNS"
+    ],
+    "ifthar": [
+        "NN"
+    ],
+    "hazard": [
+        "NN"
+    ],
+    "kafeel": [
+        "NN"
+    ],
+    "khalifah": [
+        "NN"
+    ],
+    "zikrtator": [
+        "NN"
+    ],
+    "shawarma": [
+        "JJ",
+        "NN"
+    ],
+    "jumah": [
+        "NN"
+    ],
+    "astaghfurallah": [
+        "NN"
+    ],
+    "trend": [
+        "NN"
+    ],
+    "tasamim": [
+        "NN"
+    ],
+    "7aram": [
+        "NNP"
+    ],
+    "innali": [
+        "JJ"
+    ],
+    "lahi": [
+        "NN"
+    ],
+    "halal": [
+        "NN"
+    ],
+    "jew": [
+        "NN"
+    ],
+    "wali": [
+        "NN"
+    ],
+    "buraq": [
+        "JJ"
+    ],
+    "hoshaa": [
+        "NN"
+    ],
+    "satan": [
+        "JJ"
+    ],
+    "sharurah": [
+        "NN"
+    ],
+    "mashallah": [
+        "NN"
+    ],
+    "fitaihi": [
+        "NN"
+    ],
+    "falafel": [
+        "NNS",
+        "NN"
+    ],
+    "name": [
+        "NN"
+    ],
+    "saud": [
+        "NN"
+    ],
+    "sand": [
+        "NN"
+    ],
+    "tho": [
+        "NN"
+    ],
+    "jeep": [
+        "NN"
+    ],
+    "neswan": [
+        "NNS"
+    ],
+    "hijabi": [
+        "NNS"
+    ],
+    "tent": [
+        "NN"
+    ],
+    "attack": [
+        "NN"
+    ],
+    "shelat": [
+        "NN"
+    ],
+    "makwa": [
+        "NNS"
+    ],
+    "arab": [
+        "JJ"
+    ],
+    "musliums": [
+        "NNS"
+    ],
+    "age": [
+        "NN"
+    ],
+    "expatriates": [
+        "NNS"
+    ],
+    "iqama": [
+        "NN"
+    ],
+    "woman": [
+        "NN"
+    ],
+    "horma": [
+        "NN"
+    ],
+    "inshaallah": [
+        "NN"
+    ],
+    "peninsula": [
+        "NN"
+    ],
+    "seyool": [
+        "NN"
+    ],
+    "year": [
+        "NN"
+    ],
+    "life": [
+        "NN"
+    ],
+    "inshallah": [
+        "NN"
+    ],
+    "allahfather": [
+        "NN"
+    ],
+    "xxx": [
+        "NN"
+    ],
+    "return": [
+        "NN"
+    ],
+    "sheiks": [
+        "NNS"
+    ],
+    "ozama": [
+        "NN"
+    ],
+    "astaghfer": [
+        "JJ"
+    ],
+    "iblees": [
+        "NNS"
+    ],
+    "syaitan": [
+        "NN"
+    ],
+    "louboutins": [
+        "NNS"
+    ],
+    "adnan": [
+        "NN"
+    ],
+    "houthi": [
+        "NN"
+    ],
+    "laden": [
+        "NN"
+    ],
+    "mujahid": [
+        "NN"
+    ],
+    "permis": [
+        "NN"
+    ],
+    "femmes": [
+        "NNS"
+    ],
+    "marwa": [
+        "NN"
+    ],
+    "safa": [
+        "JJ"
+    ],
+    "distracted": [
+        "JJ"
+    ],
+    "palms": [
+        "NNS"
+    ],
+    "wrath": [
+        "NN"
+    ],
+    "fiqh": [
+        "JJ"
+    ],
+    "burka": [
+        "NNS",
+        "NN"
+    ],
+    "hare": [
+        "NN"
+    ],
+    "awkwardmuslim": [
+        "JJ"
+    ],
+    "halaqah": [
+        "NN"
+    ],
+    "food": [
+        "NN"
+    ],
+    "yemeni": [
+        "JJ"
+    ],
+    "presidents": [
+        "NNS"
+    ],
+    "monakba": [
+        "JJ"
+    ],
+    "hadi": [
+        "NN"
+    ],
+    "invasion": [
+        "NN"
+    ],
+    "snatchers": [
+        "NNS"
+    ],
+    "art": [
+        "NN"
+    ],
+    "ka3ba": [
+        "NN"
+    ],
+    "sinners": [
+        "NNS"
+    ],
+    "tahlya": [
+        "NN"
+    ],
+    "grave": [
+        "NN"
+    ],
+    "hijab": [
+        "NN"
+    ],
+    "allahh": [
+        "JJ"
+    ],
+    "estaghfurr": [
+        "NN"
+    ],
+    "eid": [
+        "NN"
+    ],
+    "miss": [
+        "JJ"
+    ],
+    "daisy": [
+        "NN"
+    ],
+    "wahabi": [
+        "NNS",
+        "NN"
+    ],
+    "water": [
+        "NN"
+    ],
+    "tale": [
+        "JJ"
+    ],
+    "shr3ia": [
+        "NNP"
+    ],
+    "na6ra": [
+        "NN"
+    ],
+    "signs": [
+        "NNS"
+    ],
+    "ritzcarlton": [
+        "NN"
+    ],
+    "hajj": [
+        "JJ",
+        "NN"
+    ],
+    "shaytaan": [
+        "NN"
+    ],
+    "ramdan": [
+        "JJ"
+    ],
+    "maaaad": [
+        "NN"
+    ],
+    "chop": [
+        "NN"
+    ],
+    "speare": [
+        "NN"
+    ],
+    "laban": [
+        "NN"
+    ],
+    "porcupines": [
+        "NNS"
+    ],
+    "shias": [
+        "NNS"
+    ],
+    "\u0634\u0627\u0631\u0639": [
+        "NN"
+    ],
+    "qibla": [
+        "NN"
+    ],
+    "edition": [
+        "NN"
+    ],
+    "iftar": [
+        "NN"
+    ],
+    "yel3anabock": [
+        "NN"
+    ],
+    "basrah": [
+        "NN"
+    ],
+    "baby": [
+        "NN"
+    ],
+    "carribean": [
+        "NN"
+    ],
+    "possible": [
+        "JJ"
+    ],
+    "kajoor": [
+        "NN"
+    ],
+    "dates": [
+        "NNS"
+    ],
+    "zarina": [
+        "NN"
+    ],
+    "cinema": [
+        "NN"
+    ],
+    "m\u00e9tal": [
+        "JJ"
+    ],
+    "infadels": [
+        "NNS"
+    ],
+    "shikh": [
+        "NNS"
+    ],
+    "batha": [
+        "NN"
+    ],
+    "rakaa": [
+        "NN"
+    ],
+    "henna": [
+        "NN"
+    ],
+    "power": [
+        "NN"
+    ],
+    "philosopher": [
+        "NN"
+    ],
+    "wife": [
+        "NN"
+    ],
+    "wahhabis": [
+        "NN"
+    ],
+    "fatwa": [
+        "JJ",
+        "NN"
+    ],
+    "ismails": [
+        "NNS"
+    ],
+    "night": [
+        "NN"
+    ],
+    "hilal": [
+        "NN"
+    ],
+    "indiscriminate": [
+        "JJ"
+    ],
+    "qisaas": [
+        "JJ"
+    ],
+    "audis": [
+        "NNS"
+    ],
+    "desperate": [
+        "JJ"
+    ],
+    "revenge": [
+        "NN"
+    ],
+    "sujood": [
+        "NN"
+    ],
+    "saudia": [
+        "NN"
+    ],
+    "hafezaho": [
+        "NN"
+    ],
+    "vegetables": [
+        "NNS"
+    ],
+    "burkas": [
+        "NNS"
+    ],
+    "brother": [
+        "NN"
+    ],
+    "sallys": [
+        "NNS"
+    ],
+    "tarawih": [
+        "NN"
+    ],
+    "eads": [
+        "NNS"
+    ],
+    "ali": [
+        "JJ",
+        "NNP"
+    ],
+    "iinsan": [
+        "JJ"
+    ],
+    "tamees": [
+        "NNS"
+    ],
+    "jameela": [
+        "NN"
+    ],
+    "\u0643\u0631\u0646\u062a\u064a\u0646\u0627": [
+        "NN"
+    ],
+    "saeed": [
+        "NN"
+    ],
+    "astaghfurullah": [
+        "NN"
+    ],
+    "almuntaqimun": [
+        "JJ"
+    ],
+    "shaiks": [
+        "JJ"
+    ],
+    "trump": [
+        "NN"
+    ],
+    "grand": [
+        "JJ"
+    ],
+    "albalha": [
+        "NN"
+    ],
+    "sahoor": [
+        "JJ"
+    ],
+    "nafs": [
+        "JJ",
+        "NN"
+    ],
+    "ster": [
+        "NN"
+    ],
+    "allahi": [
+        "NN"
+    ],
+    "shiites": [
+        "NNS"
+    ],
+    "osama": [
+        "NN"
+    ],
+    "harrame": [
+        "NN"
+    ],
+    "waliyyulamr": [
+        "NN"
+    ],
+    "alsauds": [
+        "NNS"
+    ],
+    "taif": [
+        "NN"
+    ],
+    "dessert": [
+        "NN"
+    ],
+    "oudfather": [
+        "NN"
+    ],
+    "dajjal": [
+        "NNS"
+    ],
+    "thobe": [
+        "NN"
+    ],
+    "habeebi": [
+        "NN"
+    ],
+    "wom": [
+        "NN"
+    ],
+    "wonder": [
+        "NN"
+    ],
+    "niima": [
+        "JJ"
+    ],
+    "jomaa": [
+        "JJ"
+    ],
+    "kaaba": [
+        "NN"
+    ],
+    "ibn": [
+        "NN"
+    ],
+    "mehrem": [
+        "NN"
+    ],
+    "george": [
+        "NN"
+    ],
+    "sahara": [
+        "NN"
+    ],
+    "aqidah": [
+        "NNS"
+    ],
+    "meccan": [
+        "JJ"
+    ],
+    "khalid": [
+        "JJ"
+    ],
+    "lebanese": [
+        "JJ"
+    ],
+    "hummos": [
+        "NNS"
+    ],
+    "dishdashathoub": [
+        "NNS"
+    ],
+    "juliet": [
+        "JJ"
+    ],
+    "mujaahidh": [
+        "NN"
+    ],
+    "rams": [
+        "NNS"
+    ],
+    "tribes": [
+        "NNS"
+    ],
+    "sadaqahman": [
+        "JJ"
+    ],
+    "bretty": [
+        "JJ"
+    ],
+    "jews": [
+        "NNS"
+    ],
+    "shariah": [
+        "NN"
+    ],
+    "fat": [
+        "NN"
+    ],
+    "betweeen": [
+        "NN"
+    ],
+    "park": [
+        "NN"
+    ],
+    "\u062d\u0645\u0627\u0631": [
+        "NN"
+    ],
+    "shade": [
+        "NN"
+    ],
+    "\u0633\u0648\u064a\u0643\u062a": [
+        "NN"
+    ],
+    "oil": [
+        "NN"
+    ],
+    "muazzin": [
+        "NN"
+    ],
+    "awakens": [
+        "NNS"
+    ],
+    "rugya": [
+        "NN"
+    ],
+    "cause": [
+        "NN"
+    ],
+    "khubar": [
+        "NN"
+    ],
+    "men": [
+        "NNS"
+    ],
+    "malik": [
+        "NN"
+    ],
+    "shaitanic": [
+        "JJ"
+    ],
+    "wet": [
+        "JJ"
+    ],
+    "\u0634\u0637\u0631": [
+        "NN"
+    ],
+    "jihadist": [
+        "NN"
+    ],
+    "tamar": [
+        "JJ"
+    ],
+    "hummus": [
+        "NN"
+    ],
+    "injustice": [
+        "NN"
+    ],
+    "kebabs": [
+        "NNS"
+    ],
+    "haqq": [
+        "NN"
+    ],
+    "spy": [
+        "NN"
+    ],
+    "iran": [
+        "JJ",
+        "NN"
+    ],
+    "alibaba": [
+        "NN"
+    ],
+    "virgins": [
+        "NNS"
+    ],
+    "bonsaisky": [
+        "JJ"
+    ],
+    "hairy": [
+        "JJ"
+    ],
+    "sabr": [
+        "NN"
+    ],
+    "gin": [
+        "NN"
+    ],
+    "analysis": [
+        "NN"
+    ],
+    "sword": [
+        "NN"
+    ],
+    "kafeels": [
+        "NNS"
+    ],
+    "shaithaans": [
+        "NNS"
+    ],
+    "sorcerer": [
+        "NN"
+    ],
+    "mahram": [
+        "NN"
+    ],
+    "old": [
+        "JJ"
+    ],
+    "middle": [
+        "JJ"
+    ],
+    "east": [
+        "NN"
+    ],
+    "beauties": [
+        "NNS"
+    ],
+    "rich": [
+        "JJ"
+    ],
+    "century": [
+        "NN"
+    ],
+    "morning": [
+        "NN"
+    ],
+    "judgement": [
+        "NN"
+    ],
+    "ibilis": [
+        "NN"
+    ],
+    "amir": [
+        "NN"
+    ],
+    "mufti": [
+        "NN"
+    ],
+    "ugly": [
+        "JJ"
+    ],
+    "dhuha": [
+        "NNS"
+    ],
+    "fajr": [
+        "NN"
+    ],
+    "mummy": [
+        "NN"
+    ],
+    "tasty": [
+        "NN"
+    ],
+    "shalat": [
+        "NNS"
+    ],
+    "shaa": [
+        "NN"
+    ],
+    "beard": [
+        "NN"
+    ],
+    "hinnah": [
+        "NN"
+    ],
+    "aliyn": [
+        "NN"
+    ],
+    "alhoor": [
+        "JJ"
+    ],
+    "design": [
+        "NN"
+    ],
+    "prince": [
+        "NN"
+    ],
+    "sikhs": [
+        "NNS"
+    ],
+    "dowry": [
+        "NN"
+    ],
+    "camles": [
+        "NNS"
+    ],
+    "purpose": [
+        "NN"
+    ],
+    "\u0644\u064a\u0634": [
+        "NN"
+    ],
+    "fathima": [
+        "NN"
+    ],
+    "houtha": [
+        "NN"
+    ],
+    "riyal": [
+        "NN"
+    ],
+    "allahzilla": [
+        "NN"
+    ],
+    "madinah": [
+        "NN"
+    ],
+    "face": [
+        "NN"
+    ],
+    "palace": [
+        "NN"
+    ],
+    "heaven": [
+        "NNP"
+    ],
+    "deen": [
+        "JJ",
+        "NN"
+    ],
+    "enfetah": [
+        "NN"
+    ],
+    "hookah": [
+        "NN"
+    ],
+    "sulaiman": [
+        "NN"
+    ],
+    "keren": [
+        "NNS"
+    ],
+    "lebih": [
+        "NN"
+    ],
+    "sheikhspeare": [
+        "NN"
+    ],
+    "smokey": [
+        "NN"
+    ],
+    "bedwin": [
+        "NN"
+    ],
+    "mining": [
+        "NN"
+    ],
+    "contract": [
+        "NN"
+    ],
+    "nikkah": [
+        "NNS"
+    ],
+    "beards": [
+        "NNS"
+    ],
+    "wars": [
+        "NNS"
+    ],
+    "star": [
+        "NN"
+    ],
+    "yaumul": [
+        "NN"
+    ],
+    "qiyamah": [
+        "NN"
+    ],
+    "prayers": [
+        "NNS"
+    ],
+    "dune": [
+        "NN"
+    ],
+    "mohammedians": [
+        "NNS"
+    ],
+    "elerify": [
+        "NN"
+    ],
+    "arabic": [
+        "JJ"
+    ],
+    "fusha": [
+        "NN"
+    ],
+    "fatimas": [
+        "NNS"
+    ],
+    "look": [
+        "NN"
+    ],
+    "kings": [
+        "NNS"
+    ],
+    "madea": [
+        "NN"
+    ],
+    "mahrams": [
+        "NNS"
+    ],
+    "mosque": [
+        "NN"
+    ],
+    "silence": [
+        "NN"
+    ],
+    "islams": [
+        "NNS"
+    ],
+    "abeg": [
+        "NN"
+    ],
+    "suhoor": [
+        "NN"
+    ],
+    "green": [
+        "JJ"
+    ],
+    "jahanim": [
+        "NNS"
+    ],
+    "jannah": [
+        "NN"
+    ],
+    "fakirs": [
+        "NNS"
+    ],
+    "fatwah": [
+        "NN"
+    ],
+    "jules": [
+        "NNS"
+    ],
+    "makkah": [
+        "NNS"
+    ],
+    "loooool": [
+        "NN"
+    ],
+    "imams": [
+        "NNS"
+    ],
+    "stones": [
+        "NNS"
+    ],
+    "iraqi": [
+        "JJ"
+    ],
+    "antnamluman": [
+        "NN"
+    ],
+    "israeli": [
+        "JJ"
+    ],
+    "curves": [
+        "NNS"
+    ],
+    "shaitaans": [
+        "NNS"
+    ],
+    "roses": [
+        "NNS"
+    ],
+    "shwarma": [
+        "NN"
+    ],
+    "wahhabi": [
+        "NNS"
+    ],
+    "intrainables": [
+        "NNS"
+    ],
+    "hoor": [
+        "NN"
+    ],
+    "\u0628\u0631\u0636\u0648": [
+        "NNS"
+    ],
+    "sheik": [
+        "NN"
+    ],
+    "\u0648\u0627\u0644\u062a\u0641\u062d\u064a\u0637": [
+        "NN"
+    ],
+    "\u0648\u0627\u0644\u062f\u0639\u0633": [
+        "JJ"
+    ],
+    "\u0627\u0644\u0647\u0631\u0648\u0644\u0629": [
+        "JJ"
+    ],
+    "pbuh": [
+        "NN"
+    ],
+    "easa": [
+        "NN"
+    ],
+    "sanaa": [
+        "NN"
+    ],
+    "habib": [
+        "NN"
+    ],
+    "fasting": [
+        "NN"
+    ],
+    "crowd": [
+        "NN"
+    ],
+    "files": [
+        "NNS"
+    ],
+    "israel": [
+        "JJ"
+    ],
+    "oud": [
+        "NN"
+    ],
+    "house": [
+        "NN"
+    ],
+    "hub": [
+        "NN"
+    ],
+    "executioner": [
+        "NN"
+    ],
+    "moderate": [
+        "JJ"
+    ],
+    "ukhthi": [
+        "NN"
+    ],
+    "abayah": [
+        "NN"
+    ],
+    "lipstick": [
+        "NN"
+    ],
+    "dad": [
+        "NN"
+    ],
+    "bedouin": [
+        "NN"
+    ],
+    "\u0642\u0628\u0627\u0626\u0644": [
+        "NN"
+    ],
+    "tahlia": [
+        "NNS"
+    ],
+    "ustaz": [
+        "JJ"
+    ],
+    "taweed": [
+        "NN"
+    ],
+    "nikah": [
+        "NNS"
+    ],
+    "rings": [
+        "NNS"
+    ],
+    "bedouins": [
+        "NNS"
+    ],
+    "sin": [
+        "NN"
+    ],
+    "feasts": [
+        "NNS"
+    ],
+    "manfo7a": [
+        "NNS"
+    ],
+    "bismillah": [
+        "NN"
+    ],
+    "yallah": [
+        "JJ"
+    ],
+    "\u062a\u0641\u062d\u064a\u0637": [
+        "NN"
+    ],
+    "\u0627\u0644\u0647\u064a\u0626\u0629": [
+        "NNS"
+    ],
+    "ruqyah": [
+        "NN"
+    ],
+    "habibit": [
+        "NN"
+    ],
+    "fasaad": [
+        "NN"
+    ],
+    "fitna": [
+        "NN"
+    ],
+    "imaan": [
+        "NN"
+    ],
+    "ram": [
+        "NN"
+    ],
+    "motaoas": [
+        "NN"
+    ],
+    "kebab": [
+        "NN"
+    ],
+    "kaaboom": [
+        "NN"
+    ],
+    "sakakah": [
+        "NNS"
+    ],
+    "religious": [
+        "JJ"
+    ],
+    "mo\u00f1ster": [
+        "NN"
+    ],
+    "bi": [
+        "NNP"
+    ],
+    "manasik": [
+        "NN"
+    ],
+    "safar": [
+        "JJ"
+    ],
+    "war": [
+        "NN"
+    ],
+    "shaheed": [
+        "NN"
+    ],
+    "alhamdulillah": [
+        "NN"
+    ],
+    "fiction": [
+        "NN"
+    ],
+    "dubban": [
+        "JJ"
+    ],
+    "sea": [
+        "NN"
+    ],
+    "raidhotul": [
+        "NN"
+    ],
+    "train": [
+        "NN"
+    ],
+    "dark": [
+        "NN"
+    ],
+    "years": [
+        "NNS"
+    ],
+    "shbook": [
+        "NN"
+    ],
+    "fatima": [
+        "NN"
+    ],
+    "insyallah": [
+        "NN"
+    ],
+    "dirhams": [
+        "NNS"
+    ],
+    "tatans": [
+        "NNS"
+    ],
+    "bahrain": [
+        "NN"
+    ],
+    "mantoo": [
+        "NN"
+    ],
+    "nawaitu": [
+        "NN"
+    ],
+    "kimi": [
+        "JJ"
+    ],
+    "bait": [
+        "JJ"
+    ],
+    "brada": [
+        "NN"
+    ],
+    "wears": [
+        "NNS"
+    ],
+    "baba": [
+        "NN"
+    ],
+    "tausiyah": [
+        "NN"
+    ],
+    "pelarian": [
+        "JJ"
+    ],
+    "ridwan": [
+        "NN"
+    ],
+    "diary": [
+        "NN"
+    ],
+    "wimpy": [
+        "JJ"
+    ],
+    "thawb": [
+        "NNS"
+    ],
+    "notes": [
+        "NNS"
+    ],
+    "sandals": [
+        "NNS"
+    ],
+    "riyadhs": [
+        "NN"
+    ],
+    "darbawes": [
+        "NNS"
+    ],
+    "rafhaa": [
+        "NN"
+    ],
+    "witir": [
+        "NN"
+    ],
+    "hoot": [
+        "NN"
+    ],
+    "lail": [
+        "NN"
+    ],
+    "halah": [
+        "NN"
+    ],
+    "blade": [
+        "NN"
+    ],
+    "murottal": [
+        "JJ"
+    ],
+    "wqwq": [
+        "NN"
+    ],
+    "dhaathami": [
+        "NN"
+    ],
+    "niqabis": [
+        "JJ"
+    ],
+    "wallahi": [
+        "NNS"
+    ],
+    "fools": [
+        "NNS"
+    ],
+    "abdul": [
+        "NNS"
+    ],
+    "khamer": [
+        "NN"
+    ],
+    "interrupted": [
+        "JJ"
+    ],
+    "shaikhs": [
+        "NNS"
+    ],
+    "mshabab": [
+        "NN"
+    ],
+    "stoning": [
+        "NN"
+    ],
+    "adultery": [
+        "NN"
+    ],
+    "tabuk": [
+        "JJ"
+    ],
+    "adhan": [
+        "JJ"
+    ],
+    "unnisa": [
+        "NN"
+    ],
+    "mutaween": [
+        "NN"
+    ],
+    "zabiha": [
+        "NN"
+    ],
+    "ladin": [
+        "NN"
+    ],
+    "jabal": [
+        "JJ"
+    ],
+    "dudette": [
+        "NN"
+    ],
+    "3lm": [
+        "JJ"
+    ],
+    "rakats": [
+        "NNS"
+    ],
+    "jamila": [
+        "NNS"
+    ],
+    "wedding": [
+        "NN"
+    ],
+    "slaves": [
+        "NNS"
+    ],
+    "kingdom": [
+        "NN"
+    ],
+    "olaya": [
+        "NN"
+    ],
+    "medina": [
+        "NN"
+    ],
+    "brides": [
+        "NNS"
+    ],
+    "salma": [
+        "NN"
+    ],
+    "rakaats": [
+        "NNS"
+    ],
+    "ma": [
+        "JJ"
+    ],
+    "khobar": [
+        "NN"
+    ],
+    "legand": [
+        "NN"
+    ],
+    "\u062c\u0647\u0646\u0645": [
+        "NN"
+    ],
+    "pink": [
+        "JJ"
+    ],
+    "faris": [
+        "NN"
+    ],
+    "hungry": [
+        "JJ"
+    ],
+    "sunnis": [
+        "NNS"
+    ],
+    "england": [
+        "NN"
+    ],
+    "jummah": [
+        "JJ"
+    ],
+    "13th": [
+        "NN"
+    ],
+    "jinnbusters": [
+        "NNS"
+    ],
+    "underrated": [
+        "JJ"
+    ],
+    "charie": [
+        "NN"
+    ],
+    "niyamat": [
+        "NN"
+    ],
+    "sisterhood": [
+        "NN"
+    ],
+    "hijabs": [
+        "NNS"
+    ],
+    "days": [
+        "NNS"
+    ],
+    "bee": [
+        "NN"
+    ],
+    "nfod": [
+        "NNS"
+    ],
+    "gay": [
+        "NN"
+    ],
+    "najdi": [
+        "NN"
+    ],
+    "iron": [
+        "NN"
+    ],
+    "fists": [
+        "NNS"
+    ],
+    "backlava": [
+        "NN"
+    ],
+    "shishank": [
+        "NN"
+    ],
+    "prophet": [
+        "NN"
+    ],
+    "mushrik": [
+        "NN"
+    ],
+    "muharamat": [
+        "NN"
+    ],
+    "mutawa": [
+        "NN"
+    ],
+    "sufis": [
+        "NN"
+    ],
+    "volume": [
+        "NN"
+    ],
+    "gcc": [
+        "NN"
+    ],
+    "bilad": [
+        "JJ"
+    ],
+    "express": [
+        "JJ"
+    ],
+    "section": [
+        "NN"
+    ],
+    "family": [
+        "NN"
+    ],
+    "najd": [
+        "NN"
+    ],
+    "muwahidin": [
+        "NN"
+    ],
+    "dhab": [
+        "NN"
+    ],
+    "mut\u02bfah": [
+        "JJ"
+    ],
+    "salafist": [
+        "JJ"
+    ],
+    "shabab": [
+        "NN"
+    ],
+    "ramadhan": [
+        "JJ",
+        "NN"
+    ],
+    "ththalith": [
+        "NN"
+    ],
+    "kitab": [
+        "NN"
+    ],
+    "imran": [
+        "NN"
+    ],
+    "boys": [
+        "NNS"
+    ],
+    "karintina": [
+        "NN"
+    ],
+    "sharia": [
+        "NNS"
+    ],
+    "tahleya": [
+        "NN"
+    ],
+    "sudah": [
+        "NNS"
+    ],
+    "mujahideen": [
+        "NN"
+    ],
+    "whudu": [
+        "NN"
+    ],
+    "redemptions": [
+        "NNS"
+    ],
+    "abu": [
+        "NN"
+    ],
+    "ahmad": [
+        "NN"
+    ],
+    "fauroz": [
+        "NN"
+    ],
+    "moon": [
+        "NN"
+    ],
+    "careem": [
+        "JJ"
+    ],
+    "billionaire": [
+        "NN"
+    ],
+    "hasanaat": [
+        "NN"
+    ],
+    "haunting": [
+        "NN"
+    ],
+    "786th": [
+        "JJ"
+    ],
+    "miracle": [
+        "NN"
+    ],
+    "shahsheikh": [
+        "NN"
+    ],
+    "sameri": [
+        "NN"
+    ],
+    "falestine": [
+        "NN"
+    ],
+    "uhud": [
+        "JJ"
+    ],
+    "alla": [
+        "NN"
+    ],
+    "ella": [
+        "NN"
+    ],
+    "ellah": [
+        "NN"
+    ],
+    "mutawwa3s": [
+        "NN"
+    ],
+    "busters": [
+        "NNS"
+    ],
+    "style": [
+        "NN"
+    ],
+    "tabouk": [
+        "NNS"
+    ],
+    "autumn": [
+        "NN"
+    ],
+    "surah": [
+        "NN"
+    ],
+    "maryam": [
+        "NN"
+    ],
+    "poet": [
+        "NN"
+    ],
+    "rug": [
+        "JJ"
+    ],
+    "sum": [
+        "NN"
+    ],
+    "version": [
+        "NN"
+    ],
+    "womens": [
+        "NNS"
+    ],
+    "isha": [
+        "NN"
+    ],
+    "rayyan": [
+        "NN"
+    ],
+    "oily": [
+        "JJ"
+    ],
+    "mujaheed": [
+        "NN"
+    ],
+    "qadr": [
+        "NN"
+    ],
+    "laylatul": [
+        "NN"
+    ],
+    "moms": [
+        "NNS"
+    ],
+    "maather": [
+        "JJ"
+    ],
+    "qurbani": [
+        "NN"
+    ],
+    "yaumal": [
+        "NN"
+    ],
+    "lashes": [
+        "NNS"
+    ],
+    "hadiths": [
+        "NNS"
+    ],
+    "journey": [
+        "NN"
+    ],
+    "zam": [
+        "NN"
+    ],
+    "drones": [
+        "NNS"
+    ],
+    "lord": [
+        "NN"
+    ],
+    "funerals": [
+        "NNS"
+    ],
+    "games": [
+        "NNS"
+    ],
+    "gulf": [
+        "NN"
+    ],
+    "salafy": [
+        "NNS"
+    ],
+    "qiyammah": [
+        "JJ"
+    ],
+    "survivors": [
+        "NNS"
+    ],
+    "sahwah": [
+        "NN"
+    ],
+    "brotherhood": [
+        "NN"
+    ],
+    "selma": [
+        "NN"
+    ],
+    "wudugone": [
+        "JJ"
+    ],
+    "muezzin": [
+        "NN"
+    ],
+    "shaytaanbusters": [
+        "NNS"
+    ],
+    "mutawwas": [
+        "NN"
+    ],
+    "bridge": [
+        "NN"
+    ],
+    "settah": [
+        "NN"
+    ],
+    "munahy": [
+        "NN"
+    ],
+    "romantic": [
+        "JJ"
+    ],
+    "diaries": [
+        "NNS"
+    ],
+    "8th": [
+        "JJ"
+    ],
+    "actiondrama": [
+        "NN"
+    ],
+    "camelman": [
+        "NN"
+    ],
+    "mocking": [
+        "JJ"
+    ],
+    "quraan": [
+        "JJ"
+    ],
+    "undead": [
+        "JJ"
+    ],
+    "hassan": [
+        "NN"
+    ],
+    "sumaiyya": [
+        "NN"
+    ],
+    "10hr": [
+        "JJ"
+    ],
+    "entertaining": [
+        "JJ"
+    ],
+    "sauds": [
+        "NNS"
+    ],
+    "wallstreet": [
+        "NN"
+    ],
+    "goat": [
+        "NN"
+    ],
+    "cure": [
+        "NN"
+    ],
+    "harams": [
+        "NNS"
+    ],
+    "shaytans": [
+        "NNS"
+    ],
+    "riyad": [
+        "NN"
+    ],
+    "mundi": [
+        "JJ"
+    ],
+    "view": [
+        "NN"
+    ],
+    "purge": [
+        "NN"
+    ],
+    "barking": [
+        "NN"
+    ],
+    "davinci": [
+        "NN"
+    ],
+    "joke": [
+        "NN"
+    ],
+    "judgment": [
+        "NN"
+    ],
+    "friendly": [
+        "JJ"
+    ],
+    "great": [
+        "JJ"
+    ],
+    "one": [
+        "NN"
+    ],
+    "mariam": [
+        "NN"
+    ],
+    "niyyah": [
+        "NNS"
+    ],
+    "harambo": [
+        "NN"
+    ],
+    "\u062c\u0641\u0646": [
+        "NN"
+    ],
+    "sorry": [
+        "JJ"
+    ],
+    "bahatman": [
+        "NN"
+    ],
+    "siraat": [
+        "NN"
+    ],
+    "wifes": [
+        "NNS"
+    ],
+    "jihadi": [
+        "NN"
+    ],
+    "secret": [
+        "JJ",
+        "NN"
+    ],
+    "shoshana": [
+        "NN"
+    ],
+    "reforms": [
+        "NNS"
+    ],
+    "shahaadah": [
+        "NN"
+    ],
+    "alhadid": [
+        "JJ"
+    ],
+    "shawarmas": [
+        "NNS"
+    ],
+    "qiyam": [
+        "NN"
+    ],
+    "saahir": [
+        "NN"
+    ],
+    "jnoub": [
+        "NN"
+    ],
+    "jumma": [
+        "NN"
+    ],
+    "transliteration": [
+        "NN"
+    ],
+    "khajoors": [
+        "NNS"
+    ],
+    "iranians": [
+        "NNS"
+    ],
+    "fiqht": [
+        "NN"
+    ],
+    "order": [
+        "NN"
+    ],
+    "bint": [
+        "JJ"
+    ],
+    "capulet": [
+        "NN"
+    ],
+    "close": [
+        "JJ"
+    ],
+    "redemption": [
+        "NN"
+    ],
+    "kharji": [
+        "NN"
+    ],
+    "azaan": [
+        "NN"
+    ],
+    "el": [
+        "NNP"
+    ],
+    "sleppless": [
+        "NN"
+    ],
+    "\u0648\u0627\u062f\u064a": [
+        "JJ"
+    ],
+    "\u0627\u0644\u062f\u0648\u0627\u0633\u0631": [
+        "NNS"
+    ],
+    "imama": [
+        "NN"
+    ],
+    "mu\u1e6dawwi": [
+        "NN"
+    ],
+    "ghishwa": [
+        "NN"
+    ],
+    "musa": [
+        "NN"
+    ],
+    "oman": [
+        "NN"
+    ],
+    "kurma": [
+        "NN"
+    ],
+    "shiekh": [
+        "NN"
+    ],
+    "real": [
+        "JJ"
+    ],
+    "housewives": [
+        "NNS"
+    ],
+    "abayaa": [
+        "NN"
+    ],
+    "wahabee": [
+        "NN"
+    ],
+    "\u0634\u0631\u0639\u064a\u0629": [
+        "JJ"
+    ],
+    "mullaholland": [
+        "JJ"
+    ],
+    "believer": [
+        "NN"
+    ],
+    "captain": [
+        "NN"
+    ],
+    "painting": [
+        "NN"
+    ],
+    "land": [
+        "NN"
+    ],
+    "photo": [
+        "NN"
+    ],
+    "kingsmen": [
+        "NNS"
+    ],
+    "president": [
+        "NN"
+    ],
+    "apas": [
+        "NNS"
+    ],
+    "hijra": [
+        "NN"
+    ],
+    "dashir": [
+        "NN"
+    ],
+    "mtwaa": [
+        "NN"
+    ],
+    "saff": [
+        "NN"
+    ],
+    "dawah": [
+        "JJ"
+    ],
+    "mia": [
+        "NN"
+    ],
+    "amam": [
+        "NN"
+    ],
+    "khalifa": [
+        "NN"
+    ],
+    "lyin": [
+        "NN"
+    ],
+    "marhabba": [
+        "NN"
+    ],
+    "end": [
+        "NN"
+    ],
+    "twin": [
+        "JJ"
+    ],
+    "time": [
+        "NN"
+    ],
+    "batwomen": [
+        "NNS"
+    ],
+    "peace": [
+        "NN"
+    ],
+    "jet": [
+        "NN"
+    ],
+    "private": [
+        "JJ"
+    ],
+    "ghost": [
+        "NN"
+    ],
+    "shetaan": [
+        "NN"
+    ],
+    "tanker": [
+        "NN"
+    ],
+    "bukra": [
+        "NN"
+    ],
+    "\u0642\u0628\u0627\u064a\u0644": [
+        "NNS"
+    ],
+    "preislamic": [
+        "JJ"
+    ],
+    "creatures": [
+        "NNS"
+    ],
+    "era": [
+        "NN"
+    ],
+    "ransom": [
+        "NN"
+    ],
+    "payer": [
+        "NN"
+    ],
+    "children": [
+        "NNS"
+    ],
+    "cornish": [
+        "NN"
+    ],
+    "new": [
+        "JJ"
+    ],
+    "jerusalem": [
+        "NN"
+    ],
+    "chocolate": [
+        "NN"
+    ],
+    "street": [
+        "NN"
+    ],
+    "big": [
+        "JJ"
+    ],
+    "nouras": [
+        "NNS"
+    ],
+    "mama": [
+        "NN"
+    ],
+    "agad": [
+        "JJ"
+    ],
+    "yessir": [
+        "NN"
+    ],
+    "il": [
+        "NNS"
+    ],
+    "whisperer": [
+        "NN"
+    ],
+    "naam": [
+        "JJ",
+        "NNS"
+    ],
+    "wonka": [
+        "NN"
+    ],
+    "hayi": [
+        "NNS"
+    ],
+    "arc": [
+        "NN"
+    ],
+    "riyadhers": [
+        "NNS"
+    ],
+    "muftis": [
+        "NN"
+    ],
+    "breakfasting": [
+        "NN"
+    ],
+    "whiter": [
+        "NN"
+    ],
+    "gunah": [
+        "NN"
+    ],
+    "thowbs": [
+        "NN"
+    ],
+    "2fasts": [
+        "NNS"
+    ],
+    "michael": [
+        "NN"
+    ],
+    "curse": [
+        "NN"
+    ],
+    "blockade": [
+        "NN"
+    ],
+    "kathar": [
+        "NN"
+    ],
+    "ikhlaas": [
+        "JJ"
+    ],
+    "hands": [
+        "NNS"
+    ],
+    "devil": [
+        "NN"
+    ],
+    "diced": [
+        "JJ"
+    ],
+    "slices": [
+        "NNS"
+    ],
+    "lady": [
+        "NN"
+    ],
+    "wrong": [
+        "JJ"
+    ],
+    "founder": [
+        "NN"
+    ],
+    "males": [
+        "NNS"
+    ],
+    "happiness": [
+        "NN"
+    ],
+    "cousin": [
+        "NN"
+    ],
+    "salah": [
+        "NN"
+    ],
+    "shaykh": [
+        "NN"
+    ],
+    "sence": [
+        "NN"
+    ],
+    "hellfire": [
+        "NN"
+    ],
+    "seasons": [
+        "NNS"
+    ],
+    "hillarious": [
+        "JJ"
+    ],
+    "driving": [
+        "NN"
+    ],
+    "torrents": [
+        "NNS"
+    ],
+    "shaykhs": [
+        "NNS"
+    ],
+    "hostage": [
+        "NN"
+    ],
+    "call": [
+        "NN"
+    ],
+    "bidah": [
+        "NNS"
+    ],
+    "roz": [
+        "NN"
+    ],
+    "sarat": [
+        "NN"
+    ],
+    "saudfather": [
+        "NN"
+    ],
+    "iii": [
+        "NN"
+    ],
+    "human": [
+        "JJ"
+    ],
+    "drop": [
+        "NN"
+    ],
+    "zina": [
+        "NN"
+    ],
+    "arbocalypse": [
+        "NN"
+    ],
+    "shaydanshaykh": [
+        "JJ"
+    ],
+    "ibadah": [
+        "NNS"
+    ],
+    "station": [
+        "NN"
+    ],
+    "infidels": [
+        "NNS"
+    ],
+    "halfbrothers": [
+        "NNS"
+    ],
+    "rayaan": [
+        "NN"
+    ],
+    "drivinggirl": [
+        "NN"
+    ],
+    "dhabi": [
+        "NN"
+    ],
+    "menace": [
+        "NN"
+    ],
+    "philosophers": [
+        "NNS"
+    ],
+    "\u062e\u062e\u062e\u062e": [
+        "NN"
+    ],
+    "sheikfather": [
+        "NN"
+    ],
+    "heavy": [
+        "JJ"
+    ],
+    "medjool": [
+        "NN"
+    ],
+    "purdah": [
+        "NNS"
+    ],
+    "angel": [
+        "NN"
+    ],
+    "fig": [
+        "NN"
+    ],
+    "giant": [
+        "JJ"
+    ],
+    "jamal": [
+        "JJ"
+    ],
+    "class": [
+        "NN"
+    ],
+    "behead": [
+        "NN"
+    ],
+    "planet": [
+        "NN"
+    ],
+    "albaik": [
+        "NN"
+    ],
+    "thieves": [
+        "NNS"
+    ],
+    "graves": [
+        "NNS"
+    ],
+    "sirocco": [
+        "NN"
+    ],
+    "headless": [
+        "JJ"
+    ],
+    "fog": [
+        "NN"
+    ],
+    "league": [
+        "NN"
+    ],
+    "store": [
+        "NN"
+    ],
+    "haboob": [
+        "NN"
+    ],
+    "harem": [
+        "NNS"
+    ],
+    "small": [
+        "JJ"
+    ],
+    "djinns": [
+        "NNS"
+    ],
+    "slick": [
+        "NN"
+    ],
+    "fence": [
+        "NN"
+    ],
+    "proof": [
+        "JJ"
+    ],
+    "sheikhfather": [
+        "NN"
+    ],
+    "fishing": [
+        "NN"
+    ],
+    "botter": [
+        "NN"
+    ],
+    "samris": [
+        "NN"
+    ],
+    "orb": [
+        "NN"
+    ],
+    "oildependence": [
+        "NN"
+    ],
+    "wahhabism": [
+        "NN"
+    ],
+    "hariri": [
+        "JJ"
+    ],
+    "kufar": [
+        "JJ"
+    ],
+    "billions": [
+        "NNS"
+    ],
+    "jummahnji": [
+        "NN"
+    ],
+    "robot": [
+        "NN"
+    ],
+    "ayatollah": [
+        "JJ"
+    ],
+    "jawf": [
+        "NN"
+    ],
+    "petrodollar": [
+        "JJ"
+    ],
+    "dudefest": [
+        "NN"
+    ],
+    "lovers": [
+        "NNS"
+    ],
+    "investor": [
+        "NN"
+    ],
+    "dubai": [
+        "NNS"
+    ],
+    "drives": [
+        "NNS"
+    ],
+    "hut": [
+        "NN"
+    ],
+    "shiite": [
+        "JJ"
+    ],
+    "mr": [
+        "NN"
+    ],
+    "nonalcoholic": [
+        "JJ"
+    ],
+    "rum": [
+        "NN"
+    ],
+    "louie": [
+        "NN"
+    ],
+    "elmer": [
+        "NN"
+    ]
+}
