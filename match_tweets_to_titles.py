@@ -22,9 +22,10 @@ def get_imdb_movies(file_path='./data/title.basics.tsv'):
     return read_csv(file_path, delimiter='\t')
 
 
-def clean_text(text):
+def clean_text(text, lowercase=True):
     # remove hashtags
-    text = text.lower()
+    if lowercase:
+        text = text.lower()
     text = re.sub(r'#([a-zA-Z0-9\_]+)?', '', text)
     text = re.sub(r'@([a-zA-Z0-9\_]+)?', '', text)
     text = re.sub(r"http\S+", '', text)

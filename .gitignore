@@ -79,3 +79,4 @@ models/
 local/
 data/arabic_wikipedia
 data/wiktionary
+data/imdb_keywords

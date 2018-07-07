@@ -4,6 +4,8 @@ import random
 from match_tweets_to_titles import clean_text
 from alphabet_detector import AlphabetDetector
 from nltk import bigrams
+import glob
+from bs4 import BeautifulSoup
 
 def get_rating_ids(file_path="/Users/mikahama/Downloads/title.ratings.csv", min_votes=100000):
 	ids = {}
@@ -15,10 +17,10 @@ def get_rating_ids(file_path="/Users/mikahama/Downloads/title.ratings.csv", min_
 		id = parts[0]
 		if votes > min_votes:
 			ids[id] = votes
-	json.dump(ids, open("imdb_ids_by_rating.json", "w"))
+	json.dump(ids, open("data/imdb_ids_by_rating.json", "w"))
 
 def get_titles(file_path="/Users/mikahama/Downloads/title.basics.tsv"):
-	ids = json.load(codecs.open("imdb_ids_by_rating.json", "r", encoding="utf-8"))
+	ids = json.load(codecs.open("data/imdb_ids_by_rating.json", "r", encoding="utf-8"))
 	f = codecs.open(file_path)
 	f.readline()
 	titles = {}
@@ -29,7 +31,7 @@ def get_titles(file_path="/Users/mikahama/Downloads/title.basics.tsv"):
 			continue
 		title = parts[2]
 		titles[title] = ids[id]
-	json.dump(titles, codecs.open("imdb_titles.json", "w", encoding="utf-8"), indent=4)
+	json.dump(titles, codecs.open("data/imdb_titles.json", "w", encoding="utf-8"), indent=4)
 
 def __make_bigram_lists(title1, title2):
 	t1 = title1.split(" ")
@@ -107,8 +109,42 @@ def make_mt_data(bigrams=False):
 	source_valid.close()
 	target_valid.close()
 
+def make_url_list():
+	d = json.load(codecs.open("data/imdb_titles_ids.json", "r", encoding="utf-8"))
+	f = codecs.open("data/imdb_keyword_urls.txt", "w", encoding="utf-8")
+	for id in d.values():
+		f.write("https://www.imdb.com/title/"+id+"/keywords\n")
+	f.close()
+
+def make_keywords_json():
+	files = glob.glob("data/imdb_keywords/*")
+	results = {}
+	for file in files:
+		id, keywords = __parse_keywords(file)
+		results[id] = keywords
+	movie_titles = json.load(codecs.open("data/imdb_titles_ids.json", "r", encoding="utf-8"))
+	res = {}
+	for title, title_id in movie_titles.iteritems():
+		res[title] = results[title_id]
+	json.dump(res, codecs.open("data/imdb_titles_keywords.json", "w", encoding="utf-8"), indent=4)
+
+def __parse_keywords(file):
+	html = codecs.open(file, "r", encoding="utf-8").read()
+	soup = BeautifulSoup(html, 'html.parser')
+	id =""
+	for link in soup.find_all('link', {"rel": "canonical"}):
+		url_parts = link.get("href").split("/")
+		id = url_parts[len(url_parts)-2]
+		break
+	keywords = []
+	for keyword in soup.find_all("div", {"class":"sodatext"}):
+		keywords.append(keyword.text.replace("\n",""))
+	return id, keywords
+
+
+
 def make_mt_test(bigrams=False):
-	titles = json.load(codecs.open("imdb_titles.json", "r", encoding="utf-8"))
+	titles = json.load(codecs.open("data/imdb_titles.json", "r", encoding="utf-8"))
 	mt_test = codecs.open("data/mt/test.txt", "w", encoding="utf-8")
 	for title in titles:
 		t = clean_text(title)
@@ -120,9 +156,11 @@ def make_mt_test(bigrams=False):
 			mt_test.write(t + "\n")
 	mt_test.close()
 
-
+#print __parse_keywords("data/imdb_keywords/keywords")
+make_keywords_json()
 #print __make_bigram_lists("taxi driver and me", "hijaabi driver and sheik and great")
 #get_rating_ids()
 #get_titles()
+#make_url_list()
 #make_mt_data(True)
-make_mt_test(True)
+#make_mt_test(True)

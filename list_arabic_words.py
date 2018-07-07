@@ -74,15 +74,17 @@ def list_wiki_urls():
 		print url
 		i = text.find("<Url")
 
-def __get_keywords(file, bnc_frequencies, keyword_dict={}):
+def __get_keywords(file, bnc_frequencies, keyword_dict={}, ignore_capitalized=False):
 	f = codecs.open(file, "r", encoding="utf-8").read()
 	paragraphs = justext.justext(f, justext.get_stoplist("English"))
 	freqs = {}
 	text_freqs = {}
 	for paragraph in paragraphs:
 		if not paragraph.is_boilerplate:
-			tokens = nltk.word_tokenize(clean_text(paragraph.text))
+			tokens = nltk.word_tokenize(clean_text(paragraph.text, not ignore_capitalized))
 			for token in tokens:
+				if ignore_capitalized and token != token.lower():
+					continue
 				if token not in text_freqs:
 					text_freqs[token] = 0
 				if token in freqs:
@@ -114,7 +116,14 @@ def get_extended_arabic_words():
 		__get_keywords(file, bnc,keyword_dict)
 	json.dump(keyword_dict, codecs.open("data/more_arabic.json", "w", encoding="utf-8"), indent=4)
 
-get_extended_arabic_words()
+def get_keywords_for_file(file):
+	bnc = json.load(codecs.open("data/bnc_frequencies.json", "r", encoding="utf-8"))
+	kw = {}
+	__get_keywords(file, bnc, kw, True)
+	return kw
+
+print get_keywords_for_file("data/sex_and_the_city_plot.txt")
+#get_extended_arabic_words()
 #extract_arabic_words()
 #bnc_frequencies()
 #find_wikipedia_pages()
