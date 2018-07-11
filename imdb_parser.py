@@ -109,6 +109,45 @@ def make_mt_data(bigrams=False):
 	source_valid.close()
 	target_valid.close()
 
+def make_mt_data_from_master(bigrams=False):
+	ad = AlphabetDetector()
+	source = codecs.open("data/mt/source.txt", "w", encoding="utf-8")
+	target = codecs.open("data/mt/target.txt", "w", encoding="utf-8")
+	source_valid = codecs.open("data/mt/source_valid.txt", "w", encoding="utf-8")
+	target_valid = codecs.open("data/mt/target_valid.txt", "w", encoding="utf-8")
+	mapped_titles = json.load(codecs.open("data/master-generated-titles-filtered.json", "r", encoding="utf-8"))
+	keys = list(mapped_titles.keys())
+	random.shuffle(keys)
+	i = 0
+	for key in keys:
+		orig = key.replace(".","")
+		humorous_ones = mapped_titles[key]
+		if "output" not in humorous_ones:
+			continue
+		for humorous in humorous_ones["output"]:
+			i += 1
+			humorous = humorous.replace(" .", "")
+			if not bigrams:
+				target.write(humorous + "\n")
+				source.write(orig + "\n")
+				if i % 10 == 0:
+					target_valid.write(humorous + "\n")
+					source_valid.write(orig + "\n")
+			if bigrams:
+				source_grams, target_grams = __make_bigram_lists(humorous, orig)
+				for x in range(len(source_grams)):
+					source_gram = " ".join(source_grams[x])
+					target_gram = " ".join(target_grams[x])
+					source.write(source_gram + "\n")
+					target.write(target_gram + "\n")
+					if i % 10 == 0:
+						source_valid.write(source_gram + "\n")
+						target_valid.write(target_gram + "\n")
+	source.close()
+	target.close()
+	source_valid.close()
+	target_valid.close()
+
 def make_url_list():
 	d = json.load(codecs.open("data/imdb_titles_ids.json", "r", encoding="utf-8"))
 	f = codecs.open("data/imdb_keyword_urls.txt", "w", encoding="utf-8")
@@ -157,7 +196,8 @@ def make_mt_test(bigrams=False):
 	mt_test.close()
 
 #print __parse_keywords("data/imdb_keywords/keywords")
-make_keywords_json()
+#make_keywords_json()
+make_mt_data_from_master()
 #print __make_bigram_lists("taxi driver and me", "hijaabi driver and sheik and great")
 #get_rating_ids()
 #get_titles()
