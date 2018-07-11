@@ -120,13 +120,16 @@ def make_mt_data_from_master(bigrams=False):
 	random.shuffle(keys)
 	i = 0
 	for key in keys:
-		orig = key.replace(".","")
+		orig = clean_text(key.replace(".",""))
 		humorous_ones = mapped_titles[key]
 		if "output" not in humorous_ones:
 			continue
 		for humorous in humorous_ones["output"]:
 			i += 1
-			humorous = humorous.replace(" .", "")
+			if "ARABIC" in ad.detect_alphabet(humorous):
+				#skip the ones with arabic characters
+				continue
+			humorous = clean_text(humorous.replace(" .", ""))
 			if not bigrams:
 				target.write(humorous + "\n")
 				source.write(orig + "\n")
