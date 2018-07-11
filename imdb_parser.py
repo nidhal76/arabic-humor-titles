@@ -3,7 +3,7 @@ import json, codecs
 import random
 from match_tweets_to_titles import clean_text
 from alphabet_detector import AlphabetDetector
-from nltk import bigrams
+#from nltk import bigrams
 import glob
 from bs4 import BeautifulSoup
 
@@ -32,6 +32,14 @@ def get_titles(file_path="/Users/mikahama/Downloads/title.basics.tsv"):
 		title = parts[2]
 		titles[title] = ids[id]
 	json.dump(titles, codecs.open("data/imdb_titles.json", "w", encoding="utf-8"), indent=4)
+
+def titles_for_lm(file_path="/Users/mikahama/Downloads/title.basics.tsv"):
+	f = codecs.open(file_path)
+	f.readline()
+	for line in f:
+		parts = line.split("\t")
+		title = parts[2]
+		print clean_text(title)
 
 def __make_bigram_lists(title1, title2):
 	t1 = title1.split(" ")
@@ -201,10 +209,11 @@ def make_mt_test(bigrams=False):
 #print __parse_keywords("data/imdb_keywords/keywords")
 #make_keywords_json()
 #make_mt_data_from_master()
+titles_for_lm()
 #make_mt_test()
 #print __make_bigram_lists("taxi driver and me", "hijaabi driver and sheik and great")
 #get_rating_ids()
 #get_titles()
 #make_url_list()
-make_mt_data(False)
+#make_mt_data(False)
 #make_mt_test(True)
