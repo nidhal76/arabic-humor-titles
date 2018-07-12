@@ -3,7 +3,7 @@ import json, codecs
 import random
 from match_tweets_to_titles import clean_text
 from alphabet_detector import AlphabetDetector
-from nltk import bigrams
+#from nltk import bigrams
 import glob
 from bs4 import BeautifulSoup
 
@@ -32,6 +32,14 @@ def get_titles(file_path="/Users/mikahama/Downloads/title.basics.tsv"):
 		title = parts[2]
 		titles[title] = ids[id]
 	json.dump(titles, codecs.open("data/imdb_titles.json", "w", encoding="utf-8"), indent=4)
+
+def titles_for_lm(file_path="/Users/mikahama/Downloads/title.basics.tsv"):
+	f = codecs.open(file_path)
+	f.readline()
+	for line in f:
+		parts = line.split("\t")
+		title = parts[2]
+		print clean_text(title)
 
 def __make_bigram_lists(title1, title2):
 	t1 = title1.split(" ")
@@ -75,7 +83,7 @@ def make_mt_data(bigrams=False):
 	target = codecs.open("data/mt/target.txt", "w", encoding="utf-8")
 	source_valid = codecs.open("data/mt/source_valid.txt", "w", encoding="utf-8")
 	target_valid = codecs.open("data/mt/target_valid.txt", "w", encoding="utf-8")
-	mapped_titles = json.load(codecs.open("mapped_titles.json", "r", encoding="utf-8"))
+	mapped_titles = json.load(codecs.open("data/mapped_titles.json", "r", encoding="utf-8"))
 	datas = list(mapped_titles.values())
 	random.shuffle(datas)
 	i = 0
@@ -104,6 +112,48 @@ def make_mt_data(bigrams=False):
 				if i % 5 == 0:
 					source_valid.write(source_gram + "\n")
 					target_valid.write(target_gram + "\n")
+	source.close()
+	target.close()
+	source_valid.close()
+	target_valid.close()
+
+def make_mt_data_from_master(bigrams=False):
+	ad = AlphabetDetector()
+	source = codecs.open("data/mt/source.txt", "w", encoding="utf-8")
+	target = codecs.open("data/mt/target.txt", "w", encoding="utf-8")
+	source_valid = codecs.open("data/mt/source_valid.txt", "w", encoding="utf-8")
+	target_valid = codecs.open("data/mt/target_valid.txt", "w", encoding="utf-8")
+	mapped_titles = json.load(codecs.open("data/master-generated-titles-filtered.json", "r", encoding="utf-8"))
+	keys = list(mapped_titles.keys())
+	random.shuffle(keys)
+	i = 0
+	for key in keys:
+		orig = clean_text(key.replace(".",""))
+		humorous_ones = mapped_titles[key]
+		if "output" not in humorous_ones:
+			continue
+		for humorous in humorous_ones["output"]:
+			i += 1
+			if "ARABIC" in ad.detect_alphabet(humorous):
+				#skip the ones with arabic characters
+				continue
+			humorous = clean_text(humorous.replace(" .", ""))
+			if not bigrams:
+				target.write(humorous + "\n")
+				source.write(orig + "\n")
+				if i % 10 == 0:
+					target_valid.write(humorous + "\n")
+					source_valid.write(orig + "\n")
+			if bigrams:
+				source_grams, target_grams = __make_bigram_lists(humorous, orig)
+				for x in range(len(source_grams)):
+					source_gram = " ".join(source_grams[x])
+					target_gram = " ".join(target_grams[x])
+					source.write(source_gram + "\n")
+					target.write(target_gram + "\n")
+					if i % 10 == 0:
+						source_valid.write(source_gram + "\n")
+						target_valid.write(target_gram + "\n")
 	source.close()
 	target.close()
 	source_valid.close()
@@ -157,10 +207,13 @@ def make_mt_test(bigrams=False):
 	mt_test.close()
 
 #print __parse_keywords("data/imdb_keywords/keywords")
-make_keywords_json()
+#make_keywords_json()
+#make_mt_data_from_master()
+titles_for_lm()
+#make_mt_test()
 #print __make_bigram_lists("taxi driver and me", "hijaabi driver and sheik and great")
 #get_rating_ids()
 #get_titles()
 #make_url_list()
-#make_mt_data(True)
+#make_mt_data(False)
 #make_mt_test(True)

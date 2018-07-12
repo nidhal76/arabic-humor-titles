@@ -80,3 +80,5 @@ local/
 data/arabic_wikipedia
 data/wiktionary
 data/imdb_keywords
+more_titles.txt
+arabic_lm.txt
