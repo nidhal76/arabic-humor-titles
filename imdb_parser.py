@@ -145,7 +145,7 @@ def make_mt_data_from_master(bigrams=False):
 					target_valid.write(humorous + "\n")
 					source_valid.write(orig + "\n")
 			if bigrams:
-				source_grams, target_grams = __make_bigram_lists(humorous, orig)
+				source_grams, target_grams = __make_bigram_lists(orig, humorous)
 				for x in range(len(source_grams)):
 					source_gram = " ".join(source_grams[x])
 					target_gram = " ".join(target_grams[x])
@@ -199,9 +199,10 @@ def make_mt_test(bigrams=False):
 	for title in titles:
 		t = clean_text(title)
 		if bigrams:
-			b1, b2 = __make_bigram_lists(t, t)
-			for bigram in b1:
-				mt_test.write(" ".join(bigram) + "\n")
+			if t.count(" ") > 1:
+				b1, b2 = __make_bigram_lists(t, t)
+				for bigram in b1:
+					mt_test.write(" ".join(bigram) + "\n")
 		else:
 			if t.count(" ") > 1:
 				mt_test.write(t + "\n")
@@ -209,9 +210,9 @@ def make_mt_test(bigrams=False):
 
 #print __parse_keywords("data/imdb_keywords/keywords")
 #make_keywords_json()
-#make_mt_data_from_master()
+#make_mt_data_from_master(True)
 #titles_for_lm()
-make_mt_test()
+make_mt_test(True)
 #print __make_bigram_lists("taxi driver and me", "hijaabi driver and sheik and great")
 #get_rating_ids()
 #get_titles()
