@@ -1,0 +1,11 @@
+python preprocess.py -train_src /Users/mikahama/arabic-humor-titles/data/mt/source.txt -train_tgt /Users/mikahama/arabic-humor-titles/data/mt/target.txt -valid_src /Users/mikahama/arabic-humor-titles/data/mt/source_valid.txt -valid_tgt /Users/mikahama/arabic-humor-titles/data/mt/target_valid.txt -save_data arab_data/model
+
+python train.py -data arab_data/model -save_model arab-model
+
+python translate.py -model arab-model_acc_69.23_ppl_6.04_e50.pt -src /Users/mikahama/arabic-humor-titles/data/mt/test.txt -output /Users/mikahama/arabic-humor-titles/data/mt/predict.txt -replace_unk
+
+
+
+
+
+python train.py -data arab_data/model -save_model arab-model -train_from arab-model_acc_69.23_ppl_6.04_e50.pt -epochs 100
