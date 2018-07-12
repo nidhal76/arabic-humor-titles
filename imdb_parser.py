@@ -3,7 +3,7 @@ import json, codecs
 import random
 from match_tweets_to_titles import clean_text
 from alphabet_detector import AlphabetDetector
-#from nltk import bigrams
+from nltk import bigrams
 import glob
 from bs4 import BeautifulSoup
 
@@ -141,7 +141,7 @@ def make_mt_data_from_master(bigrams=False):
 			if not bigrams:
 				target.write(humorous + "\n")
 				source.write(orig + "\n")
-				if i % 10 == 0:
+				if i % 4== 0:
 					target_valid.write(humorous + "\n")
 					source_valid.write(orig + "\n")
 			if bigrams:
@@ -208,8 +208,8 @@ def make_mt_test(bigrams=False):
 
 #print __parse_keywords("data/imdb_keywords/keywords")
 #make_keywords_json()
-#make_mt_data_from_master()
-titles_for_lm()
+make_mt_data_from_master()
+#titles_for_lm()
 #make_mt_test()
 #print __make_bigram_lists("taxi driver and me", "hijaabi driver and sheik and great")
 #get_rating_ids()
