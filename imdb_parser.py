@@ -212,7 +212,7 @@ def make_mt_test(bigrams=False):
 #make_keywords_json()
 #make_mt_data_from_master(True)
 #titles_for_lm()
-make_mt_test(True)
+make_mt_test()
 #print __make_bigram_lists("taxi driver and me", "hijaabi driver and sheik and great")
 #get_rating_ids()
 #get_titles()
